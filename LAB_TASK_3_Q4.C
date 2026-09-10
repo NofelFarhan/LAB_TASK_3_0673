@@ -1,0 +1,23 @@
+/* Question:4
+Write a C program to calculate the area of a triangle. Take base and height as input from the user.
+(Formula: Area = 0.5 * base * height)
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    float base, height, area;
+
+    printf("Enter base of triangle: ");
+    scanf("%f", &base);
+
+    printf("Enter height of triangle: ");
+    scanf("%f", &height);
+
+    area = 0.5 * base * height;
+
+    printf("Area of triangle = %.2f", area);
+
+    return 0;
+}
